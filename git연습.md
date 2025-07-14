@@ -27,7 +27,7 @@ git config --global user.name “윤재홍”
 
 git restore --staged 파일명		//스태이징 된거 취소
 
-
+<img width="1226" height="323" alt="Image" src="https://github.com/user-attachments/assets/55932dff-5698-402c-9dbe-92badc4a2444" />
 ￼
 
 
@@ -70,7 +70,7 @@ git branch -D 브랜치이름			//안쓴거
 5 git 로그 깔끔하게 하는 법
 
 (1)rebase
-￼
+￼<img width="1430" height="863" alt="Image" src="https://github.com/user-attachments/assets/3de1ba36-9515-41d5-91dc-4a32ec88d9ae" />
 
 git switch 새로운브랜치
 git rebase main				//시작점을 메인에 이어붙임
