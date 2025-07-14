@@ -91,7 +91,7 @@ git switch main
 git merge --squash 브랜치명		//브런치 갈아버리기
 git commit -m '메세지'
 
-￼
+￼<img width="1430" height="863" alt="Image" src="https://github.com/user-attachments/assets/3de1ba36-9515-41d5-91dc-4a32ec88d9ae" />
 
 
 
