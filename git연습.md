@@ -1,6 +1,6 @@
 0.기본세팅 
-homebrew설치
 
+homebrew설치
 //Brew install git
 
 git config --global init.defaultBranch main
@@ -16,14 +16,21 @@ git config --global user.name “윤재홍”
 
 
 
+
+
+
+
+1.코드 로컬저장소에 저장 
+
 1. git init 
-이 폴더를 감시하기 시작함, 로컬 repository저장
+//이 폴더를 감시하기 시작함, 로컬 repository저장
+
+2. git add 파일1 파일2 파일3                              // git add .
+    git commit -m ‘메모내용’ 						
+	
 
 
-2. git add 파일1 파일2 파일3                               git add . 
-       git commit -m ‘메모내용’ 						
-	
-	
+ 
 
 git restore --staged 파일명		//스태이징 된거 취소
 
@@ -32,22 +39,28 @@ git restore --staged 파일명		//스태이징 된거 취소
 
 
 
-
+2. 로그확인
 Git status
-git log --all --oneline —graph		//근데 그냥 옆애 있음
+git log --all --oneline —graph		//근데 그냥 옆애 있음  extension에서 Git graph설치
 
 
-extension에서
-Git graph설치				//전것들이랑 비교
 
 
-3.branch
+
+
+
+3.브랜치 만들기,이동
 
 
 
 git branch 브랜치명				//브랜치 생성
 
-git switch 브랜치명.              /브랜치 이동
+git switch 브랜치명.             			//브랜치 이동
+
+
+
+
+
 
 
 3-1.merge(합치기)
@@ -58,7 +71,7 @@ Git merge backup1       //합치고싶은 브런치 입력. 겹치는 코드 일
 
 
 
-4. Branch 지우기
+3-2 Branch 지우기
 
 git branch -d 브랜치이름			//쓴거
 git branch -D 브랜치이름			//안쓴거
@@ -96,16 +109,28 @@ git commit -m '메세지'
 
 
 
-6. Control +z
+
+
+
+
+6. 돌아가기
 git restore --source 커밋아이디 파일명.  		//그 아이디의 커밋한 시점으로 돌아가기
 
 
-7.흑역사 지우기
+7.지우기
 git revert 커밋아이디						//그 아이디의 커밋한 부분 없앤 커밋 생성
 
 
-*주의*
+*주의*리셋
 git reset --hard 커밋아이디			//로그까지 다 지우고 그아이디의 커밋으로 돌아감
+
+
+
+
+
+
+
+
 
 
 1. Git에 저장소 백업하기
@@ -116,6 +141,12 @@ git reset --hard 커밋아이디			//로그까지 다 지우고 그아이디의 
  
 (3)git push												//-U는 뒤에 주소 저장,처음한번만 쓰면 됨
  
+
+
+
+
+
+
 
 
 
