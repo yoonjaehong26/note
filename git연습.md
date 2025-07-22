@@ -135,7 +135,7 @@ git reset --hard 커밋아이디			//로그까지 다 지우고 그아이디의 
 
 1. Git에 저장소 백업하기
 
-								//(1)git branch -M main					//혹기 모르니 main branch 이름 main으로 설정 권고
+//(1)git branch -M main					//혹기 모르니 main branch 이름 main으로 설정 권고
 
 (2)git push -u 원격저장소주소 브랜치명 			//저장소 올리기(올리기 전commit 해야함)
  
